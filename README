@@ -75,6 +75,7 @@ BUILD DLL USING CROSS-COMPILATION
 
 ./configure --host i586-mingw32 --prefix=/tmp/hyphen-dll
 make
+make check
 make install
 
 DEVELOPMENT
